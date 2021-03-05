@@ -24,7 +24,7 @@ Hello World!
 
 How exactly does this program work though? Let's start by breaking it down piece by piece.
 
-## Required Import Statements in C++
+## Import Statements in C++
 
 One thing that may stand out to you in the 'Hello World' program is the following statement:
 
@@ -32,4 +32,9 @@ One thing that may stand out to you in the 'Hello World' program is the followin
 #include <iostream>
 ```
 
-This is what we call an 
+In Computer Science we call this an **import statement**. In Computer Science, there are endless possibilities when it comes to the things we can do; because of this, it is often nessecary to include import statements in our code to be able to access the libraries we need. In a C++ program, you will always need to import the **iostream**. If you choose to study Computer Science at the advanced level, you will learn what this library does, however, for our purposes just think of it as a magic required statement. In addition it is common practice to also have the following statement in a C++ program:
+
+```c++
+using namespace std;
+```
+Although the statement above is not technically considered an import statement, it is easier to think of it as one. Calling the statement above tells the computer that the syntax we are using is in line with the syntax of the standard library. If we were to not include this statement, then we could run into some issues accessing various functions and methods in our program.
