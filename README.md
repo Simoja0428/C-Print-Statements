@@ -3,7 +3,7 @@ The following project details how print statements work in C++. This includes bu
 
 # Hello World in C++
 
-'''c++
+```c++
 #include <iostream>
 
 using namespace std;
@@ -13,4 +13,4 @@ int main(int argc, char* argv[])
     cout << "Hello World!";
     return 0;
 }
-'''
+```
