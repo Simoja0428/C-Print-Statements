@@ -38,3 +38,15 @@ In Computer Science we call this an **import statement**. In Computer Science, t
 using namespace std;
 ```
 Although the statement above is not technically considered an import statement, it is easier to think of it as one. Calling the statement above tells the computer that the syntax we are using is in line with the syntax of the standard library. If we were to not include this statement, then we could run into some issues accessing various functions and methods in our program.
+
+## The main() function in C++
+
+In Computer Science, the main() function is used as a startng point for the computer. In order to run any code in a computer science program, it has to be linked to the main() function in some way. The basic structure of a main() function in C++ is:
+
+```c++
+int main(int argc, char* argv[])
+{
+    cout << "Hello World!";
+    return 0;
+}
+```
