@@ -17,6 +17,9 @@ int main(int argc, char* argv[])
 ```
 
 The output of this program is: 
+
+```
 Hello World!
+```
 
 How exactly does this program work though? Let's start by breaking it down piece by piece.
