@@ -46,7 +46,39 @@ In Computer Science, the main() function is used as a startng point for the comp
 ```c++
 int main(int argc, char* argv[])
 {
-    cout << "Hello World!";
+    
     return 0;
 }
 ```
+There a couple things to note here. Foremost, it is important to note that the main() function takes in two parameters. These parameters are: **int argc** and **char* argv[]**. A parameter is an input to the function. For now, you can ignore these parameters. These parameters are used to access the command line of the computer. Next, you'll notice that we declare the function as a type 'int'. This is a common practice that we will cover further when we go over functions. For now, you can just think of this as a magical statement required to get your program working. Finally, you'll notice that we have a return statement which returns 0. Again, we will further cover why we do this when we go over functions, however, for now just remember that we need this statement to end the program. 
+
+## Printing in C++
+
+In C++ printing is fairily simple. Below details some examples of printing in C++:
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+    cout << "Hello World! ";
+    cout << "Notice this is on the same line." << endl;
+    cout << "This statement is on a different line though. \n";
+    cout << "This line is on a different line also.";
+    cout << endl;
+    cout << "\tThis statement is indented.";
+    return 0;
+}
+```
+The output of the program above is as follows:
+
+```
+Hello World! Notice this is on the same line.
+This statement is on a different line though.
+This line is on a different line also.
+    This statement is indented.
+```
+
+In C++ the statement: 'cout' is used whenever we want to print out something to the console. We then seperate what we want to print with two less than symbols '<<'. Further, in order to change lines, we need to make sure that we specify this to the computer. We can do this one of two ways. First, we can use the keyword 'endl' in order to specify that we want the computer to change lines. The second way we can change lines is by using the statement '\n'. The usage of '\n' allows you to condensee multiple lines of print statements into one line of code. You may also find '\t' to be useful if you need to indent the text on the console.
